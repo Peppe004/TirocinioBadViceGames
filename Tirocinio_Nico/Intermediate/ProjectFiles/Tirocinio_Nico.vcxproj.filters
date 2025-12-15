@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tirocinio_Nico.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tirocinio_Nico.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Tirocinio_NicoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tirocinio_Nico">
+      <UniqueIdentifier>{19019E19-0611-3FA4-A643-4367A71C5018}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tirocinio_Nico\Tirocinio_Nico.Build.cs">
+      <Filter>Source\Tirocinio_Nico</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tirocinio_Nico\Tirocinio_Nico.cpp">
+      <Filter>Source\Tirocinio_Nico</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio_Nico\Tirocinio_Nico.h">
+      <Filter>Source\Tirocinio_Nico</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio_Nico\Private">
+      <UniqueIdentifier>{E3AFA03D-05EF-3F53-A34E-10416B932216}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyCart.cpp">
+      <Filter>Source\Tirocinio_Nico\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyGameMode.cpp">
+      <Filter>Source\Tirocinio_Nico\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyPlayer.cpp">
+      <Filter>Source\Tirocinio_Nico\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Tirocinio_Nico\Public">
+      <UniqueIdentifier>{C5C57CF8-0A2F-3560-9CDF-A0E7D648030C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyCart.h">
+      <Filter>Source\Tirocinio_Nico\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyGameMode.h">
+      <Filter>Source\Tirocinio_Nico\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyPlayer.h">
+      <Filter>Source\Tirocinio_Nico\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

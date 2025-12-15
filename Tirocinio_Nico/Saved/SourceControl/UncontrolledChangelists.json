@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Changelist non controllate predefinite",
+			"files": [
+				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/ProvaTirocinio_Nico.umap",
+				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/BP/MyGameModeBP.uasset",
+				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/BP/MyPlayerBP.uasset",
+				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/BP/MyCartBP.uasset"
+			]
+		}
+	]
+}

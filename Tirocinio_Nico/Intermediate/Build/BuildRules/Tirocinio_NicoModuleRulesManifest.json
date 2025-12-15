@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\TirocinioBadViceGames\\Tirocinio_Nico\\Source\\Tirocinio_Nico\\Tirocinio_Nico.Build.cs",
+		"D:\\TirocinioBadViceGames\\Tirocinio_Nico\\Source\\Tirocinio_Nico.Target.cs",
+		"D:\\TirocinioBadViceGames\\Tirocinio_Nico\\Source\\Tirocinio_NicoEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}
