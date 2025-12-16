@@ -16,10 +16,25 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+enum class EItemType : uint8;
+
+// ********** Begin ScriptStruct FCartSlots ********************************************************
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_27_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCartSlots_Statics; \
+	TIROCINIO_NICO_API static class UScriptStruct* StaticStruct();
+
+
+struct FCartSlots;
+// ********** End ScriptStruct FCartSlots **********************************************************
+
 // ********** Begin Class AMyCart ******************************************************************
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execAddItemToCart);
+
+
 TIROCINIO_NICO_API UClass* Z_Construct_UClass_AMyCart_NoRegister();
 
-#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_48_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCart(); \
 	friend struct Z_Construct_UClass_AMyCart_Statics; \
@@ -30,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(AMyCart)
 
 
-#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_48_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMyCart(AMyCart&&) = delete; \
 	AMyCart(const AMyCart&) = delete; \
@@ -40,12 +55,13 @@ public: \
 	NO_API virtual ~AMyCart();
 
 
-#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_9_PROLOG
-#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_12_GENERATED_BODY \
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_45_PROLOG
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_48_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_12_INCLASS_NO_PURE_DECLS \
-	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_12_ENHANCED_CONSTRUCTORS \
+	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_48_INCLASS_NO_PURE_DECLS \
+	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h_48_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,5 +72,20 @@ class AMyCart;
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h
+
+// ********** Begin Enum EItemType *****************************************************************
+#define FOREACH_ENUM_EITEMTYPE(op) \
+	op(EItemType::Cestino) \
+	op(EItemType::Mocio) \
+	op(EItemType::Spolverino) \
+	op(EItemType::Scacciamosche) \
+	op(EItemType::OggettoMissione1) \
+	op(EItemType::OggettoMissione2) \
+	op(EItemType::OggettoMissione3) 
+
+enum class EItemType : uint8;
+template<> struct TIsUEnumClass<EItemType> { enum { Value = true }; };
+template<> TIROCINIO_NICO_API UEnum* StaticEnum<EItemType>();
+// ********** End Enum EItemType *******************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

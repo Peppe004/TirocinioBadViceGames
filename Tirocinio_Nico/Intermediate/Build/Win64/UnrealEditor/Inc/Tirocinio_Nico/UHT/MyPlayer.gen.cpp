@@ -65,13 +65,8 @@ struct Z_Construct_UClass_AMyPlayer_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MyPlayer.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_forwardInput_MetaData[] = {
-		{ "Category", "Movement" },
-		{ "ModuleRelativePath", "Public/MyPlayer.h" },
-	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CineCameraComp;
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_forwardInput;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -80,10 +75,8 @@ struct Z_Construct_UClass_AMyPlayer_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_CineCameraComp = { "CineCameraComp", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayer, CineCameraComp), Z_Construct_UClass_UCineCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CineCameraComp_MetaData), NewProp_CineCameraComp_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyPlayer_Statics::NewProp_forwardInput = { "forwardInput", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayer, forwardInput), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_forwardInput_MetaData), NewProp_forwardInput_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyPlayer_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_CineCameraComp,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayer_Statics::NewProp_forwardInput,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayer_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AMyPlayer_Statics::DependentSingletons[])() = {
@@ -122,10 +115,10 @@ AMyPlayer::~AMyPlayer() {}
 struct Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h__Script_Tirocinio_Nico_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyPlayer, AMyPlayer::StaticClass, TEXT("AMyPlayer"), &Z_Registration_Info_UClass_AMyPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayer), 524314492U) },
+		{ Z_Construct_UClass_AMyPlayer, AMyPlayer::StaticClass, TEXT("AMyPlayer"), &Z_Registration_Info_UClass_AMyPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayer), 3790871089U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h__Script_Tirocinio_Nico_1962918531(TEXT("/Script/Tirocinio_Nico"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h__Script_Tirocinio_Nico_2729583842(TEXT("/Script/Tirocinio_Nico"),
 	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h__Script_Tirocinio_Nico_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h__Script_Tirocinio_Nico_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

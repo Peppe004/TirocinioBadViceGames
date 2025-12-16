@@ -6,19 +6,58 @@
 // Sets default values
 AMyCart::AMyCart()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+
+	PrimaryActorTick.bCanEverTick = false;
+
+	CartMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CartMesh"));
+	RootComponent = CartMesh;
 
 }
 
-// Called when the game starts or when spawned
 void AMyCart::BeginPlay()
 {
 	Super::BeginPlay();
+
+	for (const FCartSlots& Slot : SetupSlots) { //popolo la mappa di runtime con i valori presi dall'array di setup (perchè la mappa è più veloce)
+
+		FRunTimeItemData Data;
+		Data.ClassToSpawn = Slot.ItemClass;
+		Data.RelativeTransform = Slot.LocalTransform;
+		RunTimeSlotsMap.Add(Slot.ItemType, Data);
+	}
 	
 }
 
-// Called every frame
+void AMyCart::AddItemToCart(EItemType Type) {
+	
+	if (!RunTimeSlotsMap.Contains(Type)) {
+
+		UE_LOG(LogTemp, Warning, TEXT("Nessuno slot configurato per questo tipo"));
+		return;
+		
+	}
+
+	FRunTimeItemData SlotData = RunTimeSlotsMap[Type]; //prendo i dati dallo slot
+
+	if (!SlotData.ClassToSpawn) {
+		UE_LOG(LogTemp, Warning, TEXT("Nessuna classe da spawnare per questo tipo"));
+		return;
+	}
+
+	FTransform SpawnTransform = SlotData.RelativeTransform * GetActorTransform(); //calcolo la posizione nel mondo 
+
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn; //ignoro le collisioni per evitare problemi
+
+	AActor* NewItem = GetWorld()->SpawnActor<AActor>(SlotData.ClassToSpawn, SpawnTransform, SpawnParams); //spawno l'oggetto
+
+	if (NewItem) {
+		NewItem->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform);
+		UE_LOG(LogTemp, Log, TEXT("Oggetto spawnato e attaccato con successo."));
+	}
+}
+
 void AMyCart::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);

@@ -4,7 +4,43 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/StaticMeshComponent.h"
+#include "Components/BoxComponent.h"
 #include "MyCart.generated.h"
+
+UENUM(BlueprintType)
+enum class EItemType : uint8
+{
+	Cestino,
+	Mocio,
+	Spolverino,
+	Scacciamosche,
+	OggettoMissione1,
+	OggettoMissione2,
+	OggettoMissione3
+
+};
+
+USTRUCT(BlueprintType)
+struct FCartSlots
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	EItemType ItemType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AActor> ItemClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (MakeEditWidget = true))
+	FTransform LocalTransform;
+
+};
+
+struct FRunTimeItemData { //ci metto cosa spawnare e dove
+	TSubclassOf<AActor> ClassToSpawn;
+	FTransform RelativeTransform;
+};
 
 UCLASS()
 class TIROCINIO_NICO_API AMyCart : public AActor
@@ -16,11 +52,22 @@ public:
 	AMyCart();
 
 protected:
-	// Called when the game starts or when spawned
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Setup")
+	TArray<FCartSlots> SetupSlots; //questo è un array visuale per l'editor
+
+	TMap<EItemType, FRunTimeItemData> RunTimeSlotsMap; //questo è per editare
+
 	virtual void BeginPlay() override;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category ="Mesh")
+	UStaticMeshComponent* CartMesh;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION(BlueprintCallable)
+	void AddItemToCart(EItemType Type);
 
 };

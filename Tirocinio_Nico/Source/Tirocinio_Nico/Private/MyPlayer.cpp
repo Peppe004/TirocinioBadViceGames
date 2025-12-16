@@ -42,7 +42,6 @@ void AMyPlayer::Tick(float DeltaTime)
 
 void AMyPlayer::MoveForward(float Value) {
 	
-	forwardInput = Value;
 
 	if ((Controller != nullptr) && (Value != 0.0f)) {
 

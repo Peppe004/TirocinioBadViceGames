@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tirocinio_NicoModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbf1094dfc4575cf53f1526b6cd32e51eb495a0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4893c123ab602ff9912bfa6adc28031c44a9c71c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tirocinio_NicoModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tirocinio_NicoModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
