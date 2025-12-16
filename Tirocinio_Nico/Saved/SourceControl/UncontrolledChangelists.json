@@ -5,7 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/BP/MyCartBP.uasset"
+				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/ProvaTirocinio_Nico.umap",
+				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/BP/MyCartBP.uasset",
+				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/BP/MyPlayerBP.uasset",
+				"D:/TirocinioBadViceGames/Tirocinio_Nico/Content/BP/BPI_Cart.uasset"
 			]
 		}
 	]

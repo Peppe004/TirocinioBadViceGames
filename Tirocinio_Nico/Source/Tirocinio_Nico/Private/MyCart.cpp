@@ -18,11 +18,14 @@ void AMyCart::BeginPlay()
 {
 	Super::BeginPlay();
 
-	for (const FCartSlots& Slot : SetupSlots) { //popolo la mappa di runtime con i valori presi dall'array di setup (perchè la mappa è più veloce)
+	for (const FCartSlots& Slot : SetupSlots) {
 
 		FRunTimeItemData Data;
 		Data.ClassToSpawn = Slot.ItemClass;
-		Data.RelativeTransform = Slot.LocalTransform;
+
+		// Ricostruisco il Transform partendo da Location, Rotation e Scale
+		Data.RelativeTransform = FTransform(Slot.LocalRotation, Slot.LocalLocation, Slot.LocalScale);
+
 		RunTimeSlotsMap.Add(Slot.ItemType, Data);
 	}
 	

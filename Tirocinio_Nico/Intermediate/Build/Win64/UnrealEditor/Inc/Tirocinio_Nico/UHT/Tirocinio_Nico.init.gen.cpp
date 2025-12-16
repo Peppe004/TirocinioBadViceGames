@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeTirocinio_Nico_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB6D89447,
-				0x63508490,
+				0xD15A066F,
+				0x29354831,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Tirocinio_Nico.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Tirocinio_Nico.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Tirocinio_Nico(Z_Construct_UPackage__Script_Tirocinio_Nico, TEXT("/Script/Tirocinio_Nico"), Z_Registration_Info_UPackage__Script_Tirocinio_Nico, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xB6D89447, 0x63508490));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Tirocinio_Nico(Z_Construct_UPackage__Script_Tirocinio_Nico, TEXT("/Script/Tirocinio_Nico"), Z_Registration_Info_UPackage__Script_Tirocinio_Nico, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xD15A066F, 0x29354831));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

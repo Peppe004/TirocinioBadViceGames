@@ -13,7 +13,8 @@ void EmptyLinkFunctionForGeneratedCodeMyCart() {}
 
 // ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -111,16 +112,26 @@ struct Z_Construct_UScriptStruct_FCartSlots_Statics
 		{ "Category", "CartSlots" },
 		{ "ModuleRelativePath", "Public/MyCart.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LocalTransform_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LocalLocation_MetaData[] = {
 		{ "Category", "CartSlots" },
 		{ "MakeEditWidget", "TRUE" },
+		{ "ModuleRelativePath", "Public/MyCart.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LocalRotation_MetaData[] = {
+		{ "Category", "CartSlots" },
+		{ "ModuleRelativePath", "Public/MyCart.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LocalScale_MetaData[] = {
+		{ "Category", "CartSlots" },
 		{ "ModuleRelativePath", "Public/MyCart.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_ItemType_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_ItemType;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_ItemClass;
-	static const UECodeGen_Private::FStructPropertyParams NewProp_LocalTransform;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_LocalLocation;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_LocalRotation;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_LocalScale;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static void* NewStructOps()
 	{
@@ -131,12 +142,16 @@ struct Z_Construct_UScriptStruct_FCartSlots_Statics
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_ItemType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_ItemType = { "ItemType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCartSlots, ItemType), Z_Construct_UEnum_Tirocinio_Nico_EItemType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemType_MetaData), NewProp_ItemType_MetaData) }; // 3183933748
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_ItemClass = { "ItemClass", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCartSlots, ItemClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemClass_MetaData), NewProp_ItemClass_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_LocalTransform = { "LocalTransform", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCartSlots, LocalTransform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LocalTransform_MetaData), NewProp_LocalTransform_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_LocalLocation = { "LocalLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCartSlots, LocalLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LocalLocation_MetaData), NewProp_LocalLocation_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_LocalRotation = { "LocalRotation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCartSlots, LocalRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LocalRotation_MetaData), NewProp_LocalRotation_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_LocalScale = { "LocalScale", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCartSlots, LocalScale), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LocalScale_MetaData), NewProp_LocalScale_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCartSlots_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_ItemType_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_ItemType,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_ItemClass,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_LocalTransform,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_LocalLocation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_LocalRotation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCartSlots_Statics::NewProp_LocalScale,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCartSlots_Statics::PropPointers) < 2048);
 const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FCartSlots_Statics::StructParams = {
@@ -276,8 +291,8 @@ struct Z_Construct_UClass_AMyCart_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyCart_Statics::NewProp_SetupSlots_Inner = { "SetupSlots", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FCartSlots, METADATA_PARAMS(0, nullptr) }; // 1061358679
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyCart_Statics::NewProp_SetupSlots = { "SetupSlots", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyCart, SetupSlots), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SetupSlots_MetaData), NewProp_SetupSlots_MetaData) }; // 1061358679
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyCart_Statics::NewProp_SetupSlots_Inner = { "SetupSlots", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FCartSlots, METADATA_PARAMS(0, nullptr) }; // 275105463
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyCart_Statics::NewProp_SetupSlots = { "SetupSlots", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyCart, SetupSlots), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SetupSlots_MetaData), NewProp_SetupSlots_MetaData) }; // 275105463
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCart_Statics::NewProp_CartMesh = { "CartMesh", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyCart, CartMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CartMesh_MetaData), NewProp_CartMesh_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyCart_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCart_Statics::NewProp_SetupSlots_Inner,
@@ -324,13 +339,13 @@ struct Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tir
 		{ EItemType_StaticEnum, TEXT("EItemType"), &Z_Registration_Info_UEnum_EItemType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3183933748U) },
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FCartSlots::StaticStruct, Z_Construct_UScriptStruct_FCartSlots_Statics::NewStructOps, TEXT("CartSlots"), &Z_Registration_Info_UScriptStruct_FCartSlots, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCartSlots), 1061358679U) },
+		{ FCartSlots::StaticStruct, Z_Construct_UScriptStruct_FCartSlots_Statics::NewStructOps, TEXT("CartSlots"), &Z_Registration_Info_UScriptStruct_FCartSlots, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCartSlots), 275105463U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyCart, AMyCart::StaticClass, TEXT("AMyCart"), &Z_Registration_Info_UClass_AMyCart, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyCart), 1621951340U) },
+		{ Z_Construct_UClass_AMyCart, AMyCart::StaticClass, TEXT("AMyCart"), &Z_Registration_Info_UClass_AMyCart, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyCart), 56905801U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h__Script_Tirocinio_Nico_569958269(TEXT("/Script/Tirocinio_Nico"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h__Script_Tirocinio_Nico_3387890558(TEXT("/Script/Tirocinio_Nico"),
 	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h__Script_Tirocinio_Nico_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h__Script_Tirocinio_Nico_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h__Script_Tirocinio_Nico_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h__Script_Tirocinio_Nico_Statics::ScriptStructInfo),
 	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h__Script_Tirocinio_Nico_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyCart_h__Script_Tirocinio_Nico_Statics::EnumInfo));

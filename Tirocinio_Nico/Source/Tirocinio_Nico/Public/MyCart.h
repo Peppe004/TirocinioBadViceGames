@@ -33,8 +33,13 @@ struct FCartSlots
 	TSubclassOf<AActor> ItemClass;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (MakeEditWidget = true))
-	FTransform LocalTransform;
+	FVector LocalLocation;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FRotator LocalRotation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FVector LocalScale = FVector(1.0f, 1.0f, 1.0f);
 };
 
 struct FRunTimeItemData { //ci metto cosa spawnare e dove

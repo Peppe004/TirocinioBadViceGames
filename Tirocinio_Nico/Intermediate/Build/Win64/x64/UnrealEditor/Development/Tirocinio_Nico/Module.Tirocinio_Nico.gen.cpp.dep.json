@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_nico\\module.tirocinio_nico.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\tirocinio_nicoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_nico\\definitions.tirocinio_nico.h",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_nico\\uht\\myduster.gen.cpp",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\source\\tirocinio_nico\\public\\myduster.h",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_nico\\uht\\myduster.generated.h",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_nico\\uht\\mymop.gen.cpp",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\source\\tirocinio_nico\\public\\mymop.h",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_nico\\uht\\mymop.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

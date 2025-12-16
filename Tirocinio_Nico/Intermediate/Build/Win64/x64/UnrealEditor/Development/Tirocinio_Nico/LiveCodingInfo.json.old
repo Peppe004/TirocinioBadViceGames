@@ -5,6 +5,8 @@
 			"MyCart.gen.cpp.obj",
 			"MyGameMode.gen.cpp.obj",
 			"MyPlayer.gen.cpp.obj",
+			"MyDuster.gen.cpp.obj",
+			"MyMop.gen.cpp.obj",
 			"Tirocinio_Nico.init.gen.cpp.obj"
 		]
 	}

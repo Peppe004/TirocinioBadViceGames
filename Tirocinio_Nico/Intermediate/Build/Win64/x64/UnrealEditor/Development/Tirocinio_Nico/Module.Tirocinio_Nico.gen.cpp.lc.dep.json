@@ -14,7 +14,19 @@
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemode.generated.h",
-            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_nico\\uht\\mygamemode.generated.h"
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_nico\\uht\\mygamemode.generated.h",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_nico\\uht\\myplayer.gen.cpp",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\source\\tirocinio_nico\\public\\myplayer.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_nico\\uht\\myplayer.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -265,14 +265,22 @@
     <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyCart.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyDuster.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyGameMode.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyMop.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyPlayer.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyCart.h"/>
+    <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyDuster.h"/>
     <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyGameMode.h"/>
+    <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyMop.h"/>
     <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyPlayer.h"/>
   </ItemGroup>
   <PropertyGroup>

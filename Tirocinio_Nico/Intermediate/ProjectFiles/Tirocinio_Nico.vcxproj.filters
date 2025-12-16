@@ -45,7 +45,13 @@
     <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyCart.cpp">
       <Filter>Source\Tirocinio_Nico\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyDuster.cpp">
+      <Filter>Source\Tirocinio_Nico\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyGameMode.cpp">
+      <Filter>Source\Tirocinio_Nico\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyMop.cpp">
       <Filter>Source\Tirocinio_Nico\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Tirocinio_Nico\Private\MyPlayer.cpp">
@@ -57,7 +63,13 @@
     <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyCart.h">
       <Filter>Source\Tirocinio_Nico\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyDuster.h">
+      <Filter>Source\Tirocinio_Nico\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyGameMode.h">
+      <Filter>Source\Tirocinio_Nico\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyMop.h">
       <Filter>Source\Tirocinio_Nico\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Tirocinio_Nico\Public\MyPlayer.h">
