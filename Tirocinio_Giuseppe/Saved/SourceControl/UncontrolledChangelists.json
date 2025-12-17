@@ -1,0 +1,29 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Changelist non controllate predefinite",
+			"files": [
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Levels/Demo.umap",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Player/BP_CharacterController.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Input/Actions/IA_Interact.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Input/Actions/IA_Use_Tool.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Input/Actions/IA_Look.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Input/IMC_PlayerInput.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Singletons/BP_MainGameInstance.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Singletons/BP_MainLevelGameModeBase.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Input/Actions/IA_Move.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Objects/BP_InteractableObject.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Interfaces/BPI_Interarct.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Objects/BP_CleanableObject.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Objects/BP_Door.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Objects/BP_QuestObject.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Input/Actions/IA_Move_Right.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Input/Actions/IA_Move_Forward.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Input/PlayerInput.uasset",
+				"C:/Users/cerve/OneDrive/Documenti/Unreal Projects/Tirocinio_Giuseppe/Content/Blueprints/Player/BP_Player.uasset"
+			]
+		}
+	]
+}
