@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/BoxComponent.h"
+#include "Components/ArrowComponent.h"
 #include "MyPlayer.generated.h"
 
 UCLASS()
@@ -22,9 +24,14 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
 	class UCineCameraComponent* CineCameraComp;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CartCollision")
+	UBoxComponent* CartCollisionBox;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CartSlot")
+	UArrowComponent* CartSlotArrow;
+
 	void MoveForward(float Value);
 	void MoveRight(float Value);
-
 
 public:	
 	// Called every frame
@@ -33,5 +40,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION(BlueprintCallable)
+	void EnableCartCollision();
 
+	UFUNCTION(BlueprintCallable)
+	void DisableCartCollision();
 };

@@ -17,9 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AMyPlayer ****************************************************************
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execDisableCartCollision); \
+	DECLARE_FUNCTION(execEnableCartCollision);
+
+
 TIROCINIO_NICO_API UClass* Z_Construct_UClass_AMyPlayer_NoRegister();
 
-#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyPlayer(); \
 	friend struct Z_Construct_UClass_AMyPlayer_Statics; \
@@ -30,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(AMyPlayer)
 
 
-#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_14_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMyPlayer(AMyPlayer&&) = delete; \
 	AMyPlayer(const AMyPlayer&) = delete; \
@@ -40,12 +45,13 @@ public: \
 	NO_API virtual ~AMyPlayer();
 
 
-#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_9_PROLOG
-#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_12_GENERATED_BODY \
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_11_PROLOG
+#define FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_12_INCLASS_NO_PURE_DECLS \
-	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_12_ENHANCED_CONSTRUCTORS \
+	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_14_INCLASS_NO_PURE_DECLS \
+	FID_TirocinioBadViceGames_Tirocinio_Nico_Source_Tirocinio_Nico_Public_MyPlayer_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

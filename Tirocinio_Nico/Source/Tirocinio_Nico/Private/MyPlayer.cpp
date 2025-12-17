@@ -24,6 +24,17 @@ AMyPlayer::AMyPlayer()
 	GetCharacterMovement()->bOrientRotationToMovement = false;
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 360.0f, 0.0f);
 
+	CartSlotArrow = CreateDefaultSubobject<UArrowComponent>(TEXT("CartSlotArrow")); //creo l'arrow component per lo slot del carrello
+	CartSlotArrow->SetupAttachment(GetCapsuleComponent());
+
+	CartCollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CartCollisionBox")); //creo il box di collisione per il carrello e lo attacco all'arrow component a cui si attacca il carrello
+	CartCollisionBox->SetupAttachment(CartSlotArrow);
+	CartCollisionBox->SetBoxExtent(FVector(50.f, 50.f, 50.f)); //sono le dimensioni del cubo di default di UE. andrà modificato in base al modello del carrello
+	
+
+	CartCollisionBox->SetCollisionEnabled(ECollisionEnabled::NoCollision); //disabilito le collisioni del box e nascondo le righe 
+	CartCollisionBox->SetHiddenInGame(true);
+
 }
 
 // Called when the game starts or when spawned
@@ -76,4 +87,21 @@ void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 
 }
+
+void AMyPlayer::EnableCartCollision() {
+
+	CartCollisionBox->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+	CartCollisionBox->SetCollisionObjectType(ECC_GameTraceChannel1); //imposto il tipo di oggetto come cart (il tipo custom che ho creato)
+
+	CartCollisionBox->SetCollisionResponseToChannel(ECC_WorldStatic, ECR_Block); //blocca gli attori statici
+
+	//CartCollisionBox->SetCollisionResponseToChannel(ECC_WorldDynamic, ECR_Block); //da usare se vogliamo bloccare anche gli attori dinamici
+}
+
+void AMyPlayer::DisableCartCollision() {
+	CartCollisionBox->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+}
+
+
 
