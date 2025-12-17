@@ -1,0 +1,30 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "InteractableObject.h"
+
+// Sets default values
+AInteractableObject::AInteractableObject()
+{
+	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
+	StaticMesh->SetupAttachment(RootComponent);
+
+	ObjectType = EObjectType::None;
+	PrimaryActorTick.bCanEverTick = true;
+
+}
+
+// Called when the game starts or when spawned
+void AInteractableObject::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
+// Called every frame
+void AInteractableObject::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+
