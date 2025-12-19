@@ -8,6 +8,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "CineCameraComponent.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Logging/LogMacros.h"
 #include "CharacterController.generated.h"
@@ -58,7 +59,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
 	USceneComponent* CartAttachmentPoint;
 
-	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CartCollision")
+	UBoxComponent* CartCollisionBox;
 
 
 	//================================================================
@@ -116,6 +118,10 @@ protected:
 	/** Called for UseTool input */
 	void UseTool(const FInputActionValue& Value);
 
+	UFUNCTION(BlueprintCallable)
+	void EnableCartCollision();
 
+	UFUNCTION(BlueprintCallable)
+	void DisableCartCollision();
 
 };

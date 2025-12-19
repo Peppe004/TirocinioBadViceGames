@@ -25,6 +25,10 @@ ACharacterController::ACharacterController()
 
 	CartAttachmentPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Cart Attachement Point"));
 	CartAttachmentPoint->SetupAttachment(RootComponent);
+
+	CartCollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CartCollisionBox")); //creo il box di collisione per il carrello e lo attacco all'arrow component a cui si attacca il carrello
+	CartCollisionBox->SetupAttachment(CartAttachmentPoint);
+	CartCollisionBox->SetBoxExtent(FVector(50.f, 50.f, 50.f)); //sono le dimensioni del cubo di default di UE. andrà modificato in base al modello del carrello
 	
 	// Booleans
 	bIsHoldingItem = false;
@@ -152,6 +156,28 @@ void ACharacterController::UseTool(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Dude used something..."));
 
+}
+
+
+
+//================================================================
+//=================== INTERACTION FUNCTIONS ======================
+//================================================================
+
+
+void ACharacterController::EnableCartCollision() {
+
+	CartCollisionBox->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+	CartCollisionBox->SetCollisionObjectType(ECC_GameTraceChannel1); //imposto il tipo di oggetto come cart (il tipo custom che ho creato)
+
+	CartCollisionBox->SetCollisionResponseToChannel(ECC_WorldStatic, ECR_Block); //blocca gli attori statici
+
+	//CartCollisionBox->SetCollisionResponseToChannel(ECC_WorldDynamic, ECR_Block); //da usare se vogliamo bloccare anche gli attori dinamici
+}
+
+void ACharacterController::DisableCartCollision() {
+	CartCollisionBox->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
 
 
