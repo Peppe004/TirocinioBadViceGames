@@ -17,14 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AMyPlayer ****************************************************************
-#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDisableCartCollision); \
 	DECLARE_FUNCTION(execEnableCartCollision);
 
 
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_AMyPlayer_NoRegister();
 
-#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyPlayer(); \
 	friend struct Z_Construct_UClass_AMyPlayer_Statics; \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(AMyPlayer)
 
 
-#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMyPlayer(AMyPlayer&&) = delete; \
 	AMyPlayer(const AMyPlayer&) = delete; \
@@ -45,13 +45,13 @@ public: \
 	NO_API virtual ~AMyPlayer();
 
 
-#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_11_PROLOG
-#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_GENERATED_BODY \
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_11_PROLOG
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_ENHANCED_CONSTRUCTORS \
+	FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_INCLASS_NO_PURE_DECLS \
+	FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -61,6 +61,6 @@ class AMyPlayer;
 // ********** End Class AMyPlayer ******************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h
+#define CURRENT_FILE_ID FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyPlayer_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

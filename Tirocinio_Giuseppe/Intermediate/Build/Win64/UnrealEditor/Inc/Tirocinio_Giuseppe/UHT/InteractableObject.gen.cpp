@@ -134,7 +134,7 @@ AInteractableObject::~AInteractableObject() {}
 // ********** End Class AInteractableObject ********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_InteractableObject_h__Script_Tirocinio_Giuseppe_Statics
+struct Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_InteractableObject_h__Script_Tirocinio_Giuseppe_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AInteractableObject, AInteractableObject::StaticClass, TEXT("AInteractableObject"), &Z_Registration_Info_UClass_AInteractableObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractableObject), 4054331802U) },
