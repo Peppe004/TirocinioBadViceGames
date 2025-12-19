@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UMainGameInstance ********************************************************
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_UMainGameInstance_NoRegister();
 
-#define FID_Users_cerve_OneDrive_Documenti_Unreal_Projects_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMainGameInstance(); \
 	friend struct Z_Construct_UClass_UMainGameInstance_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UMainGameInstance)
 
 
-#define FID_Users_cerve_OneDrive_Documenti_Unreal_Projects_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMainGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UMainGameInstance();
 
 
-#define FID_Users_cerve_OneDrive_Documenti_Unreal_Projects_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_12_PROLOG
-#define FID_Users_cerve_OneDrive_Documenti_Unreal_Projects_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_GENERATED_BODY \
+#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_12_PROLOG
+#define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_cerve_OneDrive_Documenti_Unreal_Projects_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_cerve_OneDrive_Documenti_Unreal_Projects_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UMainGameInstance;
 // ********** End Class UMainGameInstance **********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_cerve_OneDrive_Documenti_Unreal_Projects_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h
+#define CURRENT_FILE_ID FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MainGameInstance_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

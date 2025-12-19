@@ -57,6 +57,21 @@
     <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MainLevelGameModeBase.cpp">
       <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyCart.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyDuster.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyGameMode.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyMop.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyPlayer.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Tirocinio_Giuseppe\Public">
       <UniqueIdentifier>{A4FEE345-E6CD-3DE8-BF6C-0451056432C3}</UniqueIdentifier>
     </Filter>
@@ -73,6 +88,21 @@
       <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MainLevelGameModeBase.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyCart.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyDuster.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyGameMode.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyMop.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyPlayer.h">
       <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
     </ClInclude>
   </ItemGroup>

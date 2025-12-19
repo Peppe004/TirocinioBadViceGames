@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_nico\\permoduleinline.gen.cpp",
+        "Source": "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_nico\\permoduleinline.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\tirocinio_nicoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\tirocinio_nicoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "d:\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_nico\\definitions.tirocinio_nico.h",
-            "d:\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_nico\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_nico\\definitions.tirocinio_nico.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -3,5 +3,3 @@
 #include "D:/TirocinioBadViceGames/Tirocinio_Nico/Intermediate/Build/Win64/UnrealEditor/Inc/Tirocinio_Nico/UHT/MyDuster.gen.cpp"
 #include "D:/TirocinioBadViceGames/Tirocinio_Nico/Intermediate/Build/Win64/UnrealEditor/Inc/Tirocinio_Nico/UHT/MyGameMode.gen.cpp"
 #include "D:/TirocinioBadViceGames/Tirocinio_Nico/Intermediate/Build/Win64/UnrealEditor/Inc/Tirocinio_Nico/UHT/MyMop.gen.cpp"
-#include "D:/TirocinioBadViceGames/Tirocinio_Nico/Intermediate/Build/Win64/UnrealEditor/Inc/Tirocinio_Nico/UHT/MyPlayer.gen.cpp"
-#include "D:/TirocinioBadViceGames/Tirocinio_Nico/Intermediate/Build/Win64/UnrealEditor/Inc/Tirocinio_Nico/UHT/Tirocinio_Nico.init.gen.cpp"

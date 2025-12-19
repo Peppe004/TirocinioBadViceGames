@@ -1,18 +1,18 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\cerve\\onedrive\\documenti\\unreal projects\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\private\\mainlevelgamemodebase.cpp",
+        "Source": "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\private\\mainlevelgamemodebase.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\cerve\\onedrive\\documenti\\unreal projects\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\cerve\\onedrive\\documenti\\unreal projects\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
-            "c:\\users\\cerve\\onedrive\\documenti\\unreal projects\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\mainlevelgamemodebase.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\mainlevelgamemodebase.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "c:\\users\\cerve\\onedrive\\documenti\\unreal projects\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\mainlevelgamemodebase.generated.h",
-            "c:\\users\\cerve\\onedrive\\documenti\\unreal projects\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\charactercontroller.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\mainlevelgamemodebase.generated.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\charactercontroller.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -56,7 +56,7 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\cinematiccamera\\uht\\cinecameracomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\springarmcomponent.generated.h",
-            "c:\\users\\cerve\\onedrive\\documenti\\unreal projects\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\charactercontroller.generated.h"
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\charactercontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
