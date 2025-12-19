@@ -22,10 +22,6 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
 	UStaticMeshComponent* StaticMesh;
 
-	// Root Component
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-	USceneComponent* Root;
-
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
