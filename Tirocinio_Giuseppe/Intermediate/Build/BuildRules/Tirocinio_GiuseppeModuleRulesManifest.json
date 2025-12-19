@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Source\\Tirocinio_Giuseppe\\Tirocinio_Giuseppe.Build.cs",
-		"C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Source\\Tirocinio_Giuseppe.Target.cs",
-		"C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Source\\Tirocinio_GiuseppeEditor.Target.cs"
+		"D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Source\\Tirocinio_Giuseppe\\Tirocinio_Giuseppe.Build.cs",
+		"D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Source\\Tirocinio_Giuseppe.Target.cs",
+		"D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Source\\Tirocinio_GiuseppeEditor.Target.cs"
 	],
 	"EngineVersion": "5.6.1"
 }
