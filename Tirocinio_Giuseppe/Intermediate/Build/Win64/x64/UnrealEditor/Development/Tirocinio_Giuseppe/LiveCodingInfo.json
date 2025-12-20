@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Tirocinio_Giuseppe.gen.cpp.obj": [
+			"Cart.gen.cpp.obj",
+			"CharacterController.gen.cpp.obj",
 			"E_InteractableObjectType.gen.cpp.obj",
 			"InteractableObject.gen.cpp.obj",
 			"MainGameInstance.gen.cpp.obj",
@@ -11,8 +13,6 @@
 			"MyGameMode.gen.cpp.obj",
 			"MyMop.gen.cpp.obj",
 			"MyPlayer.gen.cpp.obj",
-			"Cart.gen.cpp.obj",
-			"CharacterController.gen.cpp.obj",
 			"Tirocinio_Giuseppe.init.gen.cpp.obj"
 		]
 	}
