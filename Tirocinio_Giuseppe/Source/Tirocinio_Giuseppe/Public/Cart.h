@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Components/StaticMeshComponent.h"
+#include "Components/BoxComponent.h"
+#include "CineCameraComponent.h"
 #include "Cart.generated.h"
 
 UCLASS()
@@ -12,18 +15,27 @@ class TIROCINIO_GIUSEPPE_API ACart : public APawn
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this pawn's properties
+
 	ACart();
 
 protected:
-	// Called when the game starts or when spawned
+
 	virtual void BeginPlay() override;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BoxCollision")
+	UBoxComponent* BoxCollision;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Mesh")
+	UStaticMeshComponent* CartMesh;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Camera")
+	UCineCameraComponent* CartCamera;
+
+
 public:	
-	// Called every frame
+
 	virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };

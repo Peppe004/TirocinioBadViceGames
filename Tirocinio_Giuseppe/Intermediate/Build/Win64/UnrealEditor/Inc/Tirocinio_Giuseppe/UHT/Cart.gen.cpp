@@ -12,7 +12,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCart() {}
 
 // ********** Begin Cross Module References ********************************************************
+CINEMATICCAMERA_API UClass* Z_Construct_UClass_UCineCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_APawn();
+ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_ACart();
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_ACart_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Tirocinio_Giuseppe();
@@ -59,13 +62,41 @@ struct Z_Construct_UClass_ACart_Statics
 		{ "IncludePath", "Cart.h" },
 		{ "ModuleRelativePath", "Public/Cart.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BoxCollision_MetaData[] = {
+		{ "Category", "BoxCollision" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Cart.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CartMesh_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Cart.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CartCamera_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Cart.h" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_BoxCollision;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_CartMesh;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_CartCamera;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACart>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACart_Statics::NewProp_BoxCollision = { "BoxCollision", nullptr, (EPropertyFlags)0x00200800000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACart, BoxCollision), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BoxCollision_MetaData), NewProp_BoxCollision_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACart_Statics::NewProp_CartMesh = { "CartMesh", nullptr, (EPropertyFlags)0x00200800000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACart, CartMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CartMesh_MetaData), NewProp_CartMesh_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACart_Statics::NewProp_CartCamera = { "CartCamera", nullptr, (EPropertyFlags)0x00200800000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACart, CartCamera), Z_Construct_UClass_UCineCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CartCamera_MetaData), NewProp_CartCamera_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACart_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACart_Statics::NewProp_BoxCollision,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACart_Statics::NewProp_CartMesh,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACart_Statics::NewProp_CartCamera,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ACart_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ACart_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_APawn,
 	(UObject* (*)())Z_Construct_UPackage__Script_Tirocinio_Giuseppe,
@@ -77,11 +108,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ACart_Statics::ClassPar
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	nullptr,
+	Z_Construct_UClass_ACart_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_ACart_Statics::PropPointers),
 	0,
 	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACart_Statics::Class_MetaDataParams), Z_Construct_UClass_ACart_Statics::Class_MetaDataParams)
@@ -102,10 +133,10 @@ ACart::~ACart() {}
 struct Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h__Script_Tirocinio_Giuseppe_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ACart, ACart::StaticClass, TEXT("ACart"), &Z_Registration_Info_UClass_ACart, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACart), 474214355U) },
+		{ Z_Construct_UClass_ACart, ACart::StaticClass, TEXT("ACart"), &Z_Registration_Info_UClass_ACart, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACart), 1425702701U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h__Script_Tirocinio_Giuseppe_4138893089(TEXT("/Script/Tirocinio_Giuseppe"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h__Script_Tirocinio_Giuseppe_3732055972(TEXT("/Script/Tirocinio_Giuseppe"),
 	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
