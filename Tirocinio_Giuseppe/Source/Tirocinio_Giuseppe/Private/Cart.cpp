@@ -10,9 +10,6 @@ ACart::ACart()
 	BoxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollision"));
 	BoxCollision->SetupAttachment(RootComponent);
 
-	CartCamera = CreateDefaultSubobject<UCineCameraComponent>(TEXT("CartCamera"));
-	CartCamera->SetupAttachment(RootComponent);
-
 }
 
 void ACart::BeginPlay()

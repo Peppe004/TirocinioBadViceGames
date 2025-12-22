@@ -6,7 +6,6 @@
 #include "GameFramework/Pawn.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
-#include "CineCameraComponent.h"
 #include "Cart.generated.h"
 
 UCLASS()
@@ -27,9 +26,6 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Mesh")
 	UStaticMeshComponent* CartMesh;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Camera")
-	UCineCameraComponent* CartCamera;
 
 
 public:	
