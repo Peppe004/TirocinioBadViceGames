@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class ACart ********************************************************************
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_ACart_NoRegister();
 
-#define FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACart(); \
 	friend struct Z_Construct_UClass_ACart_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ACart)
 
 
-#define FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ACart(ACart&&) = delete; \
 	ACart(const ACart&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~ACart();
 
 
-#define FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_11_PROLOG
-#define FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_GENERATED_BODY \
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_11_PROLOG
+#define FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_ENHANCED_CONSTRUCTORS \
+	FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_INCLASS_NO_PURE_DECLS \
+	FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class ACart;
 // ********** End Class ACart **********************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h
+#define CURRENT_FILE_ID FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_Cart_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

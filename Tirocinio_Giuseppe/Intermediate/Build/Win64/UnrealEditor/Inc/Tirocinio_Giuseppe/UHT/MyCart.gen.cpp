@@ -333,7 +333,7 @@ AMyCart::~AMyCart() {}
 // ********** End Class AMyCart ********************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics
+struct Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EItemType_StaticEnum, TEXT("EItemType"), &Z_Registration_Info_UEnum_EItemType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1586877651U) },
@@ -345,10 +345,10 @@ struct Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_Tiroci
 		{ Z_Construct_UClass_AMyCart, AMyCart::StaticClass, TEXT("AMyCart"), &Z_Registration_Info_UClass_AMyCart, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyCart), 188515752U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_3824491732(TEXT("/Script/Tirocinio_Giuseppe"),
-	Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Cristian_Documents_Unreal_Projects_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::EnumInfo));
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_3824491732(TEXT("/Script/Tirocinio_Giuseppe"),
+	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyCart_h__Script_Tirocinio_Giuseppe_Statics::EnumInfo));
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

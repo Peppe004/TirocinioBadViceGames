@@ -1,23 +1,17 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\private\\cart.cpp",
+        "Source": "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\private\\cart.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\cart.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\cinematiccamera\\public\\cinecameracomponent.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\cinematiccamera\\public\\cinecamerasettings.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\cinematiccamera\\uht\\cinecamerasettings.generated.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\cinematiccamera\\uht\\cinecameracomponent.generated.h",
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\cart.generated.h"
+            "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
+            "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\cart.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "d:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\cart.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

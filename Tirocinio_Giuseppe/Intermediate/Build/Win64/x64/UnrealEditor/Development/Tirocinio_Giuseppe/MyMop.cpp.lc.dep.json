@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\private\\mymop.cpp",
+        "Source": "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\private\\mymop.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\mymop.h",
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\mymop.generated.h"
+            "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
+            "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\mymop.h",
+            "d:\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\mymop.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
