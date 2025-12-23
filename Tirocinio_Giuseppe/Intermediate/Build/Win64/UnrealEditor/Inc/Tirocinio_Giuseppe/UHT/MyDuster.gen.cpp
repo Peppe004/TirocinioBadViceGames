@@ -13,7 +13,6 @@ void EmptyLinkFunctionForGeneratedCodeMyDuster() {}
 
 // ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_AActor();
-ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_AMyDuster();
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_AMyDuster_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Tirocinio_Giuseppe();
@@ -59,25 +58,13 @@ struct Z_Construct_UClass_AMyDuster_Statics
 		{ "IncludePath", "MyDuster.h" },
 		{ "ModuleRelativePath", "Public/MyDuster.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DusterMesh_MetaData[] = {
-		{ "Category", "Mesh" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/MyDuster.h" },
-	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_DusterMesh;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyDuster>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyDuster_Statics::NewProp_DusterMesh = { "DusterMesh", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyDuster, DusterMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DusterMesh_MetaData), NewProp_DusterMesh_MetaData) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyDuster_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyDuster_Statics::NewProp_DusterMesh,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMyDuster_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AMyDuster_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_AActor,
 	(UObject* (*)())Z_Construct_UPackage__Script_Tirocinio_Giuseppe,
@@ -89,11 +76,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AMyDuster_Statics::Clas
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	Z_Construct_UClass_AMyDuster_Statics::PropPointers,
+	nullptr,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	UE_ARRAY_COUNT(Z_Construct_UClass_AMyDuster_Statics::PropPointers),
+	0,
 	0,
 	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMyDuster_Statics::Class_MetaDataParams), Z_Construct_UClass_AMyDuster_Statics::Class_MetaDataParams)
@@ -114,10 +101,10 @@ AMyDuster::~AMyDuster() {}
 struct Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyDuster_h__Script_Tirocinio_Giuseppe_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyDuster, AMyDuster::StaticClass, TEXT("AMyDuster"), &Z_Registration_Info_UClass_AMyDuster, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyDuster), 1720219240U) },
+		{ Z_Construct_UClass_AMyDuster, AMyDuster::StaticClass, TEXT("AMyDuster"), &Z_Registration_Info_UClass_AMyDuster, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyDuster), 964838477U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyDuster_h__Script_Tirocinio_Giuseppe_2324553210(TEXT("/Script/Tirocinio_Giuseppe"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyDuster_h__Script_Tirocinio_Giuseppe_1351499833(TEXT("/Script/Tirocinio_Giuseppe"),
 	Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyDuster_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_MyDuster_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
