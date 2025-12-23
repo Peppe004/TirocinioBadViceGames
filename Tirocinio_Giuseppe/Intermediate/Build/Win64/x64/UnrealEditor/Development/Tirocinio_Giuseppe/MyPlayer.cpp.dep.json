@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\private\\myplayer.cpp",
+        "Source": "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\private\\myplayer.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\myplayer.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\myplayer.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -22,7 +22,7 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\arrowcomponent.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\arrowcomponent.generated.h",
-            "c:\\users\\cristian\\documents\\unreal projects\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\myplayer.generated.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\myplayer.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\cinematiccamera\\public\\cinecameracomponent.h",

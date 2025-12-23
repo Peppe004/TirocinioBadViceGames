@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "xNsx9b17dW8=",
+  "dgSpecHash": "rSAAOe29NVQ=",
   "success": false,
-  "projectFilePath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+  "projectFilePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Il progetto 'D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
-      "projectPath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "filePath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "libraryId": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "message": "Il progetto 'C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
+      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "filePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "libraryId": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -19,10 +19,10 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Il progetto 'D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
-      "projectPath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "filePath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "libraryId": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "message": "Il progetto 'C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
+      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "filePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "libraryId": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -30,10 +30,10 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Il progetto 'D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
-      "projectPath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "filePath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "libraryId": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "message": "Il progetto 'C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
+      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "filePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "libraryId": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -41,10 +41,10 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Il progetto 'D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
-      "projectPath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "filePath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "libraryId": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "message": "Il progetto 'C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
+      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "filePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "libraryId": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
       "targetGraphs": [
         "net8.0"
       ]

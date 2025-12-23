@@ -6,30 +6,30 @@
   "libraries": {},
   "projectFileDependencyGroups": {
     "net8.0": [
-      "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
-      "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
-      "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
-      "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
+      "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicol\\.nuget\\packages\\": {},
+    "C:\\Users\\cerve\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "projectUniqueName": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
       "projectName": "Tirocinio_GiuseppeModuleRules",
-      "projectPath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
-      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "D:\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\obj\\",
+      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "packagesPath": "C:\\Users\\cerve\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cerve\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -44,17 +44,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
-              "projectPath": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
+            "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
+              "projectPath": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
             },
-            "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj": {
-              "projectPath": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj"
+            "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj": {
+              "projectPath": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj"
             },
-            "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
-              "projectPath": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
+            "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+              "projectPath": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
             },
-            "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
-              "projectPath": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
+            "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+              "projectPath": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
             }
           }
         }
@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -98,8 +98,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Il progetto 'D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
-      "libraryId": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "message": "Il progetto 'C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
+      "libraryId": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -107,8 +107,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Il progetto 'D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
-      "libraryId": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "message": "Il progetto 'C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
+      "libraryId": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -116,8 +116,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Il progetto 'D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
-      "libraryId": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "message": "Il progetto 'C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
+      "libraryId": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -125,8 +125,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Il progetto 'D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
-      "libraryId": "D:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "message": "Il progetto 'C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj' non è stato trovato. Verificare che il riferimento del progetto sia valido e che il file di progetto esista.",
+      "libraryId": "C:\\Users\\cerve\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
       "targetGraphs": [
         "net8.0"
       ]
