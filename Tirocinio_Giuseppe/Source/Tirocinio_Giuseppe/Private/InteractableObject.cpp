@@ -6,6 +6,8 @@
 // Sets default values
 AInteractableObject::AInteractableObject()
 {
+	DefaultRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+	RootComponent = DefaultRoot;
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
 	StaticMesh->SetupAttachment(RootComponent);

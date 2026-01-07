@@ -18,6 +18,10 @@ public:
 	AInteractableObject();
 protected:
 
+	// Root Component 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USceneComponent* DefaultRoot;
+
 	// Static Mesh Component
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
 	UStaticMeshComponent* StaticMesh;
