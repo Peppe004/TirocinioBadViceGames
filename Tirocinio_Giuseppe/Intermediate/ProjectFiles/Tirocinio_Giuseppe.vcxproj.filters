@@ -11,7 +11,7 @@
     <None Include="..\..\Source\Tirocinio_GiuseppeEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -42,6 +42,9 @@
     <Filter Include="Source\Tirocinio_Giuseppe\Private">
       <UniqueIdentifier>{C23E22E1-644E-3BD0-BD77-C3AEC626BC67}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\Cart.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\CharacterController.cpp">
       <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
     </ClCompile>
@@ -75,6 +78,9 @@
     <Filter Include="Source\Tirocinio_Giuseppe\Public">
       <UniqueIdentifier>{A4FEE345-E6CD-3DE8-BF6C-0451056432C3}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\Cart.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\CharacterController.h">
       <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
     </ClInclude>

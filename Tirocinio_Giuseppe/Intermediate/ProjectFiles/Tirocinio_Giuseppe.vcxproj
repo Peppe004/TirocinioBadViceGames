@@ -252,7 +252,7 @@
     <None Include="..\..\Tirocinio_Giuseppe.uproject"/>
     <None Include="..\..\Source\Tirocinio_Giuseppe.Target.cs"/>
     <None Include="..\..\Source\Tirocinio_GiuseppeEditor.Target.cs"/>
-    <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
@@ -262,6 +262,9 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Tirocinio_Giuseppe.h"/>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\Cart.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\CharacterController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -292,6 +295,7 @@
     <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyPlayer.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\Cart.h"/>
     <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\CharacterController.h"/>
     <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\E_InteractableObjectType.h"/>
     <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\InteractableObject.h"/>

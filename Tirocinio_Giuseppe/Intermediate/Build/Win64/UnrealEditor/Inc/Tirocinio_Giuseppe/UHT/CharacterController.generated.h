@@ -21,8 +21,6 @@ struct FInputActionValue;
 // ********** Begin Class ACharacterController *****************************************************
 #define FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_CharacterController_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void Interact_Implementation(); \
-	DECLARE_FUNCTION(execDisableCartCollision); \
-	DECLARE_FUNCTION(execEnableCartCollision); \
 	DECLARE_FUNCTION(execUseTool); \
 	DECLARE_FUNCTION(execInteract); \
 	DECLARE_FUNCTION(execInteractInput);

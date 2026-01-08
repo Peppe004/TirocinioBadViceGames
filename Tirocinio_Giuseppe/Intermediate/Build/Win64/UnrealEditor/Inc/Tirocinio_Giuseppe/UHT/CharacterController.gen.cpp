@@ -15,7 +15,6 @@ void EmptyLinkFunctionForGeneratedCodeCharacterController() {}
 // ********** Begin Cross Module References ********************************************************
 CINEMATICCAMERA_API UClass* Z_Construct_UClass_UCineCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
@@ -25,64 +24,6 @@ TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_ACharacterController();
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_ACharacterController_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Tirocinio_Giuseppe();
 // ********** End Cross Module References **********************************************************
-
-// ********** Begin Class ACharacterController Function DisableCartCollision ***********************
-struct Z_Construct_UFunction_ACharacterController_DisableCartCollision_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/CharacterController.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ACharacterController_DisableCartCollision_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ACharacterController, nullptr, "DisableCartCollision", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ACharacterController_DisableCartCollision_Statics::Function_MetaDataParams), Z_Construct_UFunction_ACharacterController_DisableCartCollision_Statics::Function_MetaDataParams)},  };
-UFunction* Z_Construct_UFunction_ACharacterController_DisableCartCollision()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ACharacterController_DisableCartCollision_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(ACharacterController::execDisableCartCollision)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->DisableCartCollision();
-	P_NATIVE_END;
-}
-// ********** End Class ACharacterController Function DisableCartCollision *************************
-
-// ********** Begin Class ACharacterController Function EnableCartCollision ************************
-struct Z_Construct_UFunction_ACharacterController_EnableCartCollision_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/CharacterController.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ACharacterController_EnableCartCollision_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ACharacterController, nullptr, "EnableCartCollision", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ACharacterController_EnableCartCollision_Statics::Function_MetaDataParams), Z_Construct_UFunction_ACharacterController_EnableCartCollision_Statics::Function_MetaDataParams)},  };
-UFunction* Z_Construct_UFunction_ACharacterController_EnableCartCollision()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ACharacterController_EnableCartCollision_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(ACharacterController::execEnableCartCollision)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->EnableCartCollision();
-	P_NATIVE_END;
-}
-// ********** End Class ACharacterController Function EnableCartCollision **************************
 
 // ********** Begin Class ACharacterController Function Interact ***********************************
 static FName NAME_ACharacterController_Interact = FName(TEXT("Interact"));
@@ -240,8 +181,6 @@ void ACharacterController::StaticRegisterNativesACharacterController()
 {
 	UClass* Class = ACharacterController::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
-		{ "DisableCartCollision", &ACharacterController::execDisableCartCollision },
-		{ "EnableCartCollision", &ACharacterController::execEnableCartCollision },
 		{ "Interact", &ACharacterController::execInteract },
 		{ "InteractInput", &ACharacterController::execInteractInput },
 		{ "UseTool", &ACharacterController::execUseTool },
@@ -329,11 +268,6 @@ struct Z_Construct_UClass_ACharacterController_Statics
 		{ "ToolTip", "Hand Component" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CartCollisionBox_MetaData[] = {
-		{ "Category", "CartCollision" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/CharacterController.h" },
-	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultMappingContext_MetaData[] = {
 		{ "Category", "Input" },
 #if !UE_BUILD_SHIPPING
@@ -342,26 +276,6 @@ struct Z_Construct_UClass_ACharacterController_Statics
 		{ "ModuleRelativePath", "Public/CharacterController.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "To assign the actions in the BP" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MoveAction_MetaData[] = {
-		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Move Input Action */" },
-#endif
-		{ "ModuleRelativePath", "Public/CharacterController.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Move Input Action" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LookAction_MetaData[] = {
-		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Look Input Action */" },
-#endif
-		{ "ModuleRelativePath", "Public/CharacterController.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Look Input Action" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InteractAction_MetaData[] = {
@@ -389,17 +303,12 @@ struct Z_Construct_UClass_ACharacterController_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Hand;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CartAttachmentPoint;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_CartCollisionBox;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultMappingContext;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_InteractAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_UseToolAction;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACharacterController_DisableCartCollision, "DisableCartCollision" }, // 3234091522
-		{ &Z_Construct_UFunction_ACharacterController_EnableCartCollision, "EnableCartCollision" }, // 3486993723
 		{ &Z_Construct_UFunction_ACharacterController_Interact, "Interact" }, // 2250995024
 		{ &Z_Construct_UFunction_ACharacterController_InteractInput, "InteractInput" }, // 2082138419
 		{ &Z_Construct_UFunction_ACharacterController_UseTool, "UseTool" }, // 1540323119
@@ -414,10 +323,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterCont
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpringArm_MetaData), NewProp_SpringArm_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_Hand = { "Hand", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, Hand), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Hand_MetaData), NewProp_Hand_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_CartAttachmentPoint = { "CartAttachmentPoint", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, CartAttachmentPoint), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CartAttachmentPoint_MetaData), NewProp_CartAttachmentPoint_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_CartCollisionBox = { "CartCollisionBox", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, CartCollisionBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CartCollisionBox_MetaData), NewProp_CartCollisionBox_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_DefaultMappingContext = { "DefaultMappingContext", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, DefaultMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultMappingContext_MetaData), NewProp_DefaultMappingContext_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_InteractAction = { "InteractAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, InteractAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InteractAction_MetaData), NewProp_InteractAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACharacterController_Statics::NewProp_UseToolAction = { "UseToolAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACharacterController, UseToolAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_UseToolAction_MetaData), NewProp_UseToolAction_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACharacterController_Statics::PropPointers[] = {
@@ -425,10 +331,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACharacte
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_SpringArm,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_Hand,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_CartAttachmentPoint,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_CartCollisionBox,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_DefaultMappingContext,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_MoveAction,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_LookAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_InteractAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACharacterController_Statics::NewProp_UseToolAction,
 };
@@ -469,10 +372,10 @@ ACharacterController::~ACharacterController() {}
 struct Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_CharacterController_h__Script_Tirocinio_Giuseppe_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ACharacterController, ACharacterController::StaticClass, TEXT("ACharacterController"), &Z_Registration_Info_UClass_ACharacterController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACharacterController), 1604376090U) },
+		{ Z_Construct_UClass_ACharacterController, ACharacterController::StaticClass, TEXT("ACharacterController"), &Z_Registration_Info_UClass_ACharacterController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACharacterController), 1119939781U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_CharacterController_h__Script_Tirocinio_Giuseppe_2116686045(TEXT("/Script/Tirocinio_Giuseppe"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_CharacterController_h__Script_Tirocinio_Giuseppe_3304666319(TEXT("/Script/Tirocinio_Giuseppe"),
 	Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_CharacterController_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_CharacterController_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
