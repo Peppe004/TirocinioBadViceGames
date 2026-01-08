@@ -6,11 +6,11 @@
 // Sets default values
 AInteractableObject::AInteractableObject()
 {
-	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
-	SetRootComponent(Root);
+	DefaultRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+	RootComponent = DefaultRoot;
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
-	StaticMesh->SetupAttachment(Root);
+	StaticMesh->SetupAttachment(RootComponent);
 
 	ObjectType = EObjectType::None;
 	PrimaryActorTick.bCanEverTick = true;
