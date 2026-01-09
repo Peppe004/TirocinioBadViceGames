@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tirocinio_GiuseppeModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+100b93e009a18da95b6ca8fb1fad23df6739d6fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb216231967458d68269a3fb68cc7d4c356752bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tirocinio_GiuseppeModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tirocinio_GiuseppeModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
