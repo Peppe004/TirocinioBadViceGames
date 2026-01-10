@@ -59,25 +59,13 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
 	USceneComponent* CartAttachmentPoint;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CartCollision")
-	UBoxComponent* CartCollisionBox;
-
-
 	//================================================================
 	//======================= INPUT ACTIONS ==========================
 	//================================================================
 
 	// To assign the actions in the BP
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
 	UInputMappingContext* DefaultMappingContext;
-
-	/** Move Input Action */
-	UPROPERTY(EditAnywhere, Category = "Input")
-	UInputAction* MoveAction;
-
-	/** Look Input Action */
-	UPROPERTY(EditAnywhere, Category = "Input")
-	UInputAction* LookAction;
 
 	/** Interact Input Action */
 	UPROPERTY(EditAnywhere, Category = "Input")
@@ -100,12 +88,6 @@ protected:
 	//======================= INPUT FUNCTIONS ========================
 	//================================================================
 
-	/** Called for MoveForward input */
-	void Move(const FInputActionValue& Value);
-
-	/** Called for Look input */
-	void Look(const FInputActionValue& Value);
-
 	UFUNCTION(BlueprintCallable)
 	/** Called for Interact input */
 	void InteractInput(const FInputActionValue& Value);
@@ -117,11 +99,5 @@ protected:
 	UFUNCTION(BlueprintCallable)
 	/** Called for UseTool input */
 	void UseTool(const FInputActionValue& Value);
-
-	UFUNCTION(BlueprintCallable)
-	void EnableCartCollision();
-
-	UFUNCTION(BlueprintCallable)
-	void DisableCartCollision();
 
 };

@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractableObject() {}
 
 // ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_AActor();
+ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_AInteractableObject();
 TIROCINIO_GIUSEPPE_API UClass* Z_Construct_UClass_AInteractableObject_NoRegister();
@@ -60,6 +61,17 @@ struct Z_Construct_UClass_AInteractableObject_Statics
 		{ "IncludePath", "InteractableObject.h" },
 		{ "ModuleRelativePath", "Public/InteractableObject.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultRoot_MetaData[] = {
+		{ "Category", "Components" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Root Component \n" },
+#endif
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/InteractableObject.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Root Component" },
+#endif
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StaticMesh_MetaData[] = {
 		{ "Category", "Components" },
 #if !UE_BUILD_SHIPPING
@@ -82,6 +94,7 @@ struct Z_Construct_UClass_AInteractableObject_Statics
 #endif
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultRoot;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMesh;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_ObjectType_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_ObjectType;
@@ -92,10 +105,12 @@ struct Z_Construct_UClass_AInteractableObject_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractableObject_Statics::NewProp_DefaultRoot = { "DefaultRoot", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInteractableObject, DefaultRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultRoot_MetaData), NewProp_DefaultRoot_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractableObject_Statics::NewProp_StaticMesh = { "StaticMesh", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInteractableObject, StaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StaticMesh_MetaData), NewProp_StaticMesh_MetaData) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_AInteractableObject_Statics::NewProp_ObjectType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AInteractableObject_Statics::NewProp_ObjectType = { "ObjectType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInteractableObject, ObjectType), Z_Construct_UEnum_Tirocinio_Giuseppe_EObjectType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ObjectType_MetaData), NewProp_ObjectType_MetaData) }; // 1412455974
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInteractableObject_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableObject_Statics::NewProp_DefaultRoot,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableObject_Statics::NewProp_StaticMesh,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableObject_Statics::NewProp_ObjectType_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableObject_Statics::NewProp_ObjectType,
@@ -134,13 +149,13 @@ AInteractableObject::~AInteractableObject() {}
 // ********** End Class AInteractableObject ********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_InteractableObject_h__Script_Tirocinio_Giuseppe_Statics
+struct Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_InteractableObject_h__Script_Tirocinio_Giuseppe_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AInteractableObject, AInteractableObject::StaticClass, TEXT("AInteractableObject"), &Z_Registration_Info_UClass_AInteractableObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractableObject), 4054331802U) },
+		{ Z_Construct_UClass_AInteractableObject, AInteractableObject::StaticClass, TEXT("AInteractableObject"), &Z_Registration_Info_UClass_AInteractableObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractableObject), 1746163518U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_InteractableObject_h__Script_Tirocinio_Giuseppe_1011340508(TEXT("/Script/Tirocinio_Giuseppe"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_InteractableObject_h__Script_Tirocinio_Giuseppe_3315138904(TEXT("/Script/Tirocinio_Giuseppe"),
 	Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_InteractableObject_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_cerve_OneDrive_Documenti_Desktop_Tirocinio_TirocinioBadViceGames_Tirocinio_Giuseppe_Source_Tirocinio_Giuseppe_Public_InteractableObject_h__Script_Tirocinio_Giuseppe_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
