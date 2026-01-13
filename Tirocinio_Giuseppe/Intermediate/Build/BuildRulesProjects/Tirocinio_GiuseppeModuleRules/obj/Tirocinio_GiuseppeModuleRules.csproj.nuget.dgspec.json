@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj": {}
+    "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj": {}
   },
   "projects": {
     "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
@@ -1164,14 +1164,14 @@
         }
       }
     },
-    "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj": {
+    "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+        "projectUniqueName": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
         "projectName": "Tirocinio_GiuseppeModuleRules",
-        "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+        "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
         "packagesPath": "C:\\Users\\cerve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\obj\\",
+        "outputPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
