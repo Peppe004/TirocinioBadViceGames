@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\mycart.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\tirocinio_giuseppeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tirocinio_giuseppe\\definitions.tirocinio_giuseppe.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\source\\tirocinio_giuseppe\\public\\mycart.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "c:\\users\\cerve\\onedrive\\documenti\\desktop\\tirocinio\\tirociniobadvicegames\\tirocinio_giuseppe\\intermediate\\build\\win64\\unrealeditor\\inc\\tirocinio_giuseppe\\uht\\mycart.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
