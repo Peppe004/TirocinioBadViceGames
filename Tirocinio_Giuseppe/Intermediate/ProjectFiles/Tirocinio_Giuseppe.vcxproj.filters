@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tirocinio_Giuseppe.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tirocinio_Giuseppe.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Tirocinio_GiuseppeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tirocinio_Giuseppe">
+      <UniqueIdentifier>{DB041B13-499A-3D64-BFD1-8F0A8B8BC501}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tirocinio_Giuseppe\Tirocinio_Giuseppe.Build.cs">
+      <Filter>Source\Tirocinio_Giuseppe</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Tirocinio_Giuseppe.cpp">
+      <Filter>Source\Tirocinio_Giuseppe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Tirocinio_Giuseppe.h">
+      <Filter>Source\Tirocinio_Giuseppe</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio_Giuseppe\Private">
+      <UniqueIdentifier>{C23E22E1-644E-3BD0-BD77-C3AEC626BC67}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\Cart.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\CharacterController.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\E_InteractableObjectType.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\InteractableObject.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MainGameInstance.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MainLevelGameModeBase.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyCart.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyDuster.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyGameMode.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyMop.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tirocinio_Giuseppe\Private\MyPlayer.cpp">
+      <Filter>Source\Tirocinio_Giuseppe\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Tirocinio_Giuseppe\Public">
+      <UniqueIdentifier>{A4FEE345-E6CD-3DE8-BF6C-0451056432C3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\Cart.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\CharacterController.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\E_InteractableObjectType.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\InteractableObject.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MainGameInstance.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MainLevelGameModeBase.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyCart.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyDuster.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyGameMode.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyMop.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tirocinio_Giuseppe\Public\MyPlayer.h">
+      <Filter>Source\Tirocinio_Giuseppe\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
