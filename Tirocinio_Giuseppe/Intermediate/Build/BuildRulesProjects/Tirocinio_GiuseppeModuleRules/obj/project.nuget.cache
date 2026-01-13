@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4yH6HYE5aFI=",
+  "dgSpecHash": "EHCPtq/DX18=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+  "projectFilePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cerve\\.nuget\\packages\\bitfaster.caching\\2.5.4\\bitfaster.caching.2.5.4.nupkg.sha512",
     "C:\\Users\\cerve\\.nuget\\packages\\blake3\\2.0.0\\blake3.2.0.0.nupkg.sha512",
@@ -131,9 +131,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Il pacchetto 'Microsoft.Build 17.14.28' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
-      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "filePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
       "libraryId": "Microsoft.Build",
       "targetGraphs": [
         "net8.0"
@@ -143,9 +143,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Il pacchetto 'Microsoft.IO.Redist 6.1.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net8.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
-      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "projectPath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Tirocinio\\TirocinioBadViceGames\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
+      "filePath": "C:\\Users\\cerve\\OneDrive\\Documenti\\Desktop\\Programmazione_Tirocinio\\Tirocinio_Giuseppe\\Intermediate\\Build\\BuildRulesProjects\\Tirocinio_GiuseppeModuleRules\\Tirocinio_GiuseppeModuleRules.csproj",
       "libraryId": "Microsoft.IO.Redist",
       "targetGraphs": [
         "net8.0"
