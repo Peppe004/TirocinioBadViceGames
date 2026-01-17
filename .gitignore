@@ -75,6 +75,6 @@ Config/steamvr_ue_editor_app.json
 Config/SteamVRBindings
 Platforms/HoloLens/Config/HoloLensEngine.ini
 .vsconfig
-Tirocinio_Giuseppe/Intermediate/
+*.pdb
 
-Tirocinio_Giuseppe/Saved/
+*.png
