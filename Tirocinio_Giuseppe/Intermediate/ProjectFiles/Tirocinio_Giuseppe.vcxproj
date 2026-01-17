@@ -252,7 +252,7 @@
     <None Include="..\..\Tirocinio_Giuseppe.uproject"/>
     <None Include="..\..\Source\Tirocinio_Giuseppe.Target.cs"/>
     <None Include="..\..\Source\Tirocinio_GiuseppeEditor.Target.cs"/>
-    <None Include="..\..\.gitignore"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
