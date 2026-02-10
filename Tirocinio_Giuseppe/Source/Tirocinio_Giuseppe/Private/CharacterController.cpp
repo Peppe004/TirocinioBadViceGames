@@ -100,7 +100,6 @@ void ACharacterController::InteractInput(const FInputActionValue& Value)
 // This is event can be called in the BP
 void ACharacterController::Interact_Implementation()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 25.0f, FColor::Cyan, TEXT("C++ Implementation"));
 
 }
 
