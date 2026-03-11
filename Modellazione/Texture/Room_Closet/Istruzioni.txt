@@ -1,0 +1,35 @@
+Salve miei cari Nicolò e Giuseppe. 
+In questo file ci saranno tutte le istruzioni per creare al meglio il capolavoro da me realizzato. 
+
+--- Che Asset troveremo? --- 
+L'asset che troverete è un'armadio
+
+--- Dove dev'essere collocato? ---
+Questo asset dovrà essere in ogni stanza, sia comune che speciale. Dovrà essercene almeno 1 per stanza.
+
+--- Come funzionano le texture? ---
+L'asset che troverete avrà ben 4 pack di texture, tutte perfettamente e correttamente smistate nelle loro cartelle. 
+
+Il primo asset che farete sarà Room_Closet_1/Room_Closet_type_001.
+Le sue texture si troveranno nella cartella Type_001 e conterranno Base Color, Ambient Occlusion, Metallic, Roughness e Normal Map. Sono tutte correttamente nominate così da facilitare il vostro lavoro. 
+
+Il secondo asset sarà Room_Closet_2/Room_Closet_type_002.
+Le sue texture saranno nella cartella Type_002 e al contrario di Room_Closet_1/Room_Closet_type_001 troverete solo 3 texture: Base Color, Normal Map e Roughness. 
+Non abbiate paura o timore, è giusto che sia così. Le texture dell'Ambient Occlusion e della Metallic si troveranno nella cartella Type_001. 
+Questo vuol dire che dovrete riutilizzare le mappe [T_RoomCloset_AO_Type_001] e [T_RoomCloset_Metallic_Type_001]. 
+
+Il terzo asset sarà Room_Closet_3/Room_Closet_type_003.
+Le sue texture saranno nella cartella Type_003. Questo, come anche quello precedente, avrà solo 3 texture: Base Color, Roughness e Normal Map. 
+Il procedimento che dovrete seguire è lo stesso di quello riportato di sopra. 
+
+Il vostro quarto e ultimo asset sarà Room_Closet_4/Room_Closet_type_004.
+Le texture saranno nella cartella Type_004 e le cose che troverete nonché il procedimento da seguire è lo stesso dell'asset 2 e dell'asset 3. 
+
+--- L'oggetto è già scalato per la scena? ---
+Si, potrete già metterlo in scena senza troppi problemi
+
+
+Qualora voi non riuscite a capire le istruzioni o ad eseguirle… beh… andate a zappare la terra.
+Dal vostro miglior modellatore,
+
+Yurii Riina
