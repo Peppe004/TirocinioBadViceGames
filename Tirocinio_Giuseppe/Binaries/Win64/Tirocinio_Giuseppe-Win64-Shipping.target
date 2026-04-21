@@ -3191,10 +3191,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Bridge/Bridge.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Cameras/CameraShakePreviewer/CameraShakePreviewer.uplugin",
 			"Type": "UFS"
 		},
@@ -3412,6 +3408,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/ToolPresets.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/CascadeToNiagaraConverter/CascadeToNiagaraConverter.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3731,12 +3731,12 @@
 		"BackChannel",
 		"BlendSpaceMotionAnalysis",
 		"BlueprintHeaderView",
-		"Bridge",
 		"CLionSourceCodeAccess",
 		"CableComponent",
 		"CameraCalibrationCore",
 		"CameraShakePreviewer",
 		"Cascade",
+		"CascadeToNiagaraConverter",
 		"ChangelistReview",
 		"ChaosCaching",
 		"ChaosCloth",
